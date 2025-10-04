@@ -1,0 +1,53 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    border: 2px solid var(--our-blue)   ;
+    margin: 30px auto;
+}
+
+.skills h1 {
+    font-size: 40px;
+}
+
+.skills p{
+    font-size: 25px;
+}
+.container-content-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.container-content-skills img {
+    width: 120px;
+    height: 120px;
+}
+
+.container-content-skills h3 {
+    font-size: 20px;    
+}
+
+.card-skills {
+  background-color: #ddd;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column; /* vertikal: atas ke bawah */
+  align-items: center;
+  justify-content: flex-start; /* konten mulai dari atas */
+  gap: 20px; /* jarak antar elemen */
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.container-content-skills .description {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+}

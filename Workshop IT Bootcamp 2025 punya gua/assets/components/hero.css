@@ -1,0 +1,73 @@
+.hero {
+    position: relative;
+}
+#img-hero {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.container-content-hero {
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0.5, 0.5, 0.5, 0.4);
+    color: white;
+    gap: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container-content-hero h1{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
+.container-content-hero h3{
+    font-size: 40px;
+    color: lightblue
+}
+
+.container-content-hero h3 span{
+    
+    font-size: 40px;
+    color: lightgreen;
+}
+
+.container-content-hero p{
+    font-size: 14px;
+}
+
+.container-content-hero button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: var(--our-blue);
+    color: white;
+    font-size: 18px;
+}
+
+.container-content-hero button:hover{
+    background-color: var(--our-orange);
+    cursor: pointer;
+    transform: scale(1.1); 
+    transition: transform 0.5s;
+}
+
+.container-content-hero .hero-Pengertian{
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display : flex;
+    text-align: center;
+    padding: 0 20px;
+}
